@@ -1,0 +1,18 @@
+# Raw / individual-level data — NOT published (privacy: psychometric responses)
+*.db
+*.xlsx
+Dados/
+Insumos/
+Full_Datasets/
+Dados_Fatores/
+
+# Instrument response files read by the scripts (per-respondent data)
+eaisre.csv
+Fatores.csv
+Fatores_*.csv
+*_respostas*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
